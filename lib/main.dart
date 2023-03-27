@@ -17,15 +17,8 @@ class TodoApp extends StatelessWidget {
         ),
         body: Column(
           children: const [
-            Center(
-              child: Tarefa('teste 1'),
-            ),
-            Center(
-              child: Tarefa('teste 2'),
-            ),
-            Center(
-              child: Tarefa('teste 3'),
-            ),
+            Tarefa('tarefa 1'),
+            Tarefa('tarefa 2'),
           ],
         ),
       ),
